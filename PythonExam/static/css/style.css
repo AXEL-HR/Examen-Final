@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.header h1 {
+    color: #333;
+    font-size: 1.8em;
+}
+.botones-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.btn-ejercicio1 {
+    background-color: #F527E4;
+    color: white;
+    min-width: 180px;
+    padding: 20px 15px;
+}
+.btn-ejercicio2 {
+    background-color: #A4FF00;
+    color: white;
+    min-width: 180px;
+    padding: 20px 15px;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.form-container {
+    padding: 20px;
+}
+.ejercicio-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.resultado {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+.resultado h3 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.resultado-detalle {
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.resultado-detalle.aprobado {
+    border-left: 4px solid #28a745;
+    background-color: #d4edda;
+}
+.resultado-detalle.reprobado {
+    border-left: 4px solid #dc3545;
+    background-color: #f8d7da;
+}
+.estado {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+.condiciones {
+    font-style: italic;
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+}
+.nombre-destacado {
+    text-align: center;
+    padding: 15px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #bbdefb;
+}
+.nombre-grande {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1565c0;
+    margin: 8px 0;
+}
+.longitud {
+    font-size: 1.1em;
+    color: #333;
+}
+.badge {
+    background-color: #dc3545;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 0.7em;
+    margin-left: 8px;
+}
+.alert {
+    padding: 12px;
+    margin: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
